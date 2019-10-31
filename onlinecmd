@@ -1,1 +1,1 @@
-echo "msg3: $(date)"
+echo "Вам пиздец в $(date)"
