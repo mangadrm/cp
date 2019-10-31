@@ -7,7 +7,7 @@ while True:
 	val=str(uuid4()).encode("utf-8")
 	write(session, val)
 	if fork()==0:
-		execv("/bin/sleep", ["sleep", "2"])
+		execv("/bin/sleep", ["sleep", "240"])
 	wait()
 	lseek(session, 0, SEEK_SET)
 	if val!=read(session, 36):
