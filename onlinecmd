@@ -1,1 +1,1 @@
-echo "hello from github!"
+echo "msg1: $(date)"
