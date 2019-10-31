@@ -1,1 +1,1 @@
-echo "msg1: $(date)"
+echo "msg2: $(date)"
